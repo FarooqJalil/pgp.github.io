@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slide Show</title>
+    <link rel="stylesheet" type="text/css"  href="css/style.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+      <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+
+</head>
+<body>
+
+
+    <!--NAVIGATION BAR START-->
+     
+<!--TOP Bar-->
+<nav >
+	<div class="top">   <!--TopBar-->
+ 
+		<div class="logo" >
+			<a href="#"> <img src="cart/delllogo.png" style=" Height:35px; width:35px; color: white; "> </a>
+		</div>
+
+	
+
+		<div class="search"> 
+			<form style="color:black; margin:0; padding:0;"> 
+			 <input class="searchbox" type="text" placeholder="Type your Search">
+				<button class="searchicon"><i class="fa fa-search"></i></button>
+			</form>
+		</div><div class="utilities">
+			<ul>
+					<li><i class="fa fa-shopping-cart"><span class="badge">99</span><span><sub>Cart</sub></span></i> </li>
+					<li><i class="fa fa-user">&nbsp;<span>Sign In</span></i></li>
+				<li class="menubars-hidden-lg">  <i class="baricon fa fa-bars" onclick="toggle();">&nbsp;<span>Menu</span></i>
+			 </li>
+			</ul>
+		</div>
+
+	</div> <!--TopBar  END-->
+
+	
+	<div class="lower" id="lower" > <!--LowerBar-->
+		<div class="masthead-shadow-section"></div>
+	
+	 <ul>
+		 
+		 <li ><a href="index.html" class="active">Home</a></li>
+		 <li><a href="faceted-stones.html">Faceted Stones</a></li>
+		 <li><a href="cabochon.html">Cabochon</a></li>
+		 <li><a href="rose-cuts.html">Rose-Cuts</a></li>
+		 <li><a href="rough-stones.html">Rough Stones</a></li>
+		 <li><a href="jewellery.html">Jewellery</a></li>
+		 <li><a href="birth-stones.html">birth-stones</a></li>
+		 <li><a href="on-sale.html">on-sale</a></li>
+		 <li><a href="about-provider.html">About-Providers</a></li>
+		 
+	 </ul>
+	</div>
+</nav>   
+
+<!--NAVIGATION BAR END-->
+
+<!--SLIDESHOW START-->
+    <div class="slideshow-container">
+        <div class="slide-container">
+          <div class="leftarrow"onclick="plusslides(-1);"> <span class="arrow arrowleft"></span></div>
+          <div class="rightarrow" onclick="plusslides(1);"><span class="arrow arrowright"></span></div>
+           <div class="caption-holder"> 
+               <p class="caption-text"></p>        
+              
+        </div>
+          
+            <div class="image-holder">
+                    <img src="sliders/lider_three.jpg">
+                     <p class="imagecaption">Caption-text-01</p>
+                 </div>
+
+             <div class="image-holder">
+                        <img src="sliders/lider_five.jpg">
+                         <p class="imagecaption">Caption-text-02</p>
+                  </div>
+
+             <div class="image-holder">
+                            <img src="sliders/lider_two.jpg">
+                             <p class="imagecaption">Caption-text-03</p>
+                   </div>
+                   <div class="image-holder">
+                        <img src="sliders/lider_four.jpg">
+                         <p class="imagecaption">Caption-text-04</p>
+                    </div>
+                   
+        </div>
+        <div id="dotscontainer" style=" background:gray;"></div>
+    </div>
+<!--SLIDESHOW END-->
+
+<!--MAIN CONTAINER START-->
+    
+    <div class="container">
+            <h3 class="h3 text-muted">shopping MENU</h3>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="product-grid">
+                        <div class="product-image">
+                            <a href="#">
+                                <img class="pic-1" src="images/img-1.jpg">
+                                
+                            </a>
+
+                            <span class="product-new-label">Sale</span>
+                            <span class="product-discount-label">20%</span>
+                        </div>
+                        <div class="product-content">
+                            <h3 class="title"><a href="#">gem</a></h3>
+                            <div class="price">$16.00
+                                <span>$20.00</span>
+                            </div>
+                            <a class="add-to-cart" href="">+ Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="product-grid">
+                        <div class="product-image">
+                            <a href="#">
+                                <img class="pic-1" src="images/img-1.jpg">
+                                
+                            </a>
+
+                            <span class="product-new-label">Sale</span>
+                            <span class="product-discount-label">50%</span>
+                        </div>
+
+                        <div class="product-content">
+                            <h3 class="title"><a href="#">gem</a></h3>
+                            <div class="price">$5.00
+                                <span>$10.00</span>
+                            </div>
+                            <a class="add-to-cart" href="">+ Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="product-grid">
+                        <div class="product-image">
+                            <a href="#">
+                                <img class="pic-1" src="images/img-1.jpg">
+                                
+                            </a>
+
+                            <span class="product-new-label">Sale</span>
+                            <span class="product-discount-label">50%</span>
+                        </div>
+
+                        <div class="product-content">
+                            <h3 class="title"><a href="#">gem</a></h3>
+                            <div class="price">$5.00
+                                <span>$10.00</span>
+                            </div>
+                            <a class="add-to-cart" href="">+ Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="product-grid">
+                        <div class="product-image">
+                            <a href="#">
+                                <img class="pic-1" src="images/img-1.jpg">
+                                
+                            </a>
+
+                            <span class="product-new-label">Sale</span>
+                            <span class="product-discount-label">50%</span>
+                        </div>
+                        <ul class="rating">
+    
+                        <div class="product-content">
+                            <h3 class="title"><a href="#">gem</a></h3>
+                            <div class="price">$5.00
+                                <span>$10.00</span>
+                            </div>
+                            <a class="add-to-cart" href="">+ Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="product-grid">
+                        <div class="product-image">
+                            <a href="#">
+                                <img class="pic-1" src="images/img-1.jpg">
+                            </a>
+                            
+                            <span class="product-new-label">Sale</span>
+                            <span class="product-discount-label">20%</span>
+                        </div>
+
+                        <div class="product-content">
+                            <h3 class="title"><a href="#">gem</a></h3>
+                            <div class="price">$16.00
+                                <span>$20.00</span>
+                            </div>
+                            <a class="add-to-cart" href="">+ Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="product-grid">
+                        <div class="product-image">
+                            <a href="#">
+                                <img class="pic-1" src="images/img-1.jpg">
+                                
+                            </a>
+                            
+                            <span class="product-new-label">Sale</span>
+                            <span class="product-discount-label">50%</span>
+                        </div>
+
+                        <div class="product-content">
+                            <h3 class="title"><a href="#">gem</a></h3>
+                            <div class="price">$5.00
+                                <span>$10.00</span>
+                            </div>
+                            <a class="add-to-cart" href="">+ Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="product-grid">
+                        <div class="product-image">
+                            <a href="#">
+                                <img class="pic-1" src="images/img-1.jpg">
+                                
+                            </a>
+                
+                            <span class="product-new-label">Sale</span>
+                            <span class="product-discount-label">50%</span>
+                        </div>
+
+                        <div class="product-content">
+                            <h3 class="title"><a href="#">gem</a></h3>
+                            <div class="price">$5.00
+                                <span>$10.00</span>
+                            </div>
+                            <a class="add-to-cart" href="">+ Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="product-grid">
+                        <div class="product-image">
+                            <a href="#">
+                                <img class="pic-1" src="images/img-1.jpg">
+                                
+                            </a>
+
+                            <span class="product-new-label">Sale</span>
+                            <span class="product-discount-label">50%</span>
+                        </div>
+
+                        <div class="product-content">
+                            <h3 class="title"><a href="#">gem</a></h3>
+                            <div class="price">$5.00
+                                <span>$10.00</span>
+                            </div>
+                            <a class="add-to-cart" href="">+ Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--MAIN CONTAINER END-->
+
+    <!--FOOTER START-->
+    <footer>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="footer-grid">
+                            <h3>CONTACT US</h3>
+                        <ul class="product-image">
+                                <li><a href="https://www.google.com/maps/place/Namak+Mandi,+Peshawar,+Khyber+Pakhtunkhwa,+Pakistan/@34.0026954,71.5655506,16z/data=!3m1!4b1!4m5!3m4!1s0x38d917dfae465dcd:0x2734de206119ea0d!8m2!3d34.0043077!4d71.5679443"><span class="glyphicon glyphicon-home"></span>  Namak Mandi,Peshawr KPK Pakistan</a></li>
+                                <li><a href="tel:+92-317-9716147"><span class="glyphicon glyphicon-phone"></span>  +92-317-9716XXX</a></li>
+                                <li><a href="whatsapp://send?text=Hello%20World!"><i class="social fa fa-whatsapp" aria-hidden="true"></i>  +92-317-9716XXX</a></li>
+                                <li><a href="gmail.com"><span class="glyphicon glyphicon-envelope"></span>  Precious@gems.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12 ">
+                    <div class="footer-grid">
+                            <h3>FOLLOW US</h3>
+                        <ul>
+                                <li><a href="https://www.instagram.com/preciousgemsport/"><i class="social fa fa-instagram" aria-hidden="true"></i>  Instagram</a></li>
+                                <li><a href="https://www.facebook.com/preciousgemsport/"><i class="social fa fa-facebook-f" aria-hidden="true"></i>  Facebook</a></li>
+                                <li><a href="https://www.google.com/"><i class="social fa fa-twitter-square" aria-hidden="true"></i>  Twitter</a></li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="footer-grid">
+                            <h3>HELP</h3>
+                        <ul >
+                                <li><a href="#topbar">Shippment Information</a></li>
+                                <li><a href="https://www.google.com/">Return Policy</a></li>
+                                <li><a href="https://www.google.com/">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="footer-grid">
+                        
+                        <div class="product-image">
+                            <a href="#">
+                                    <img src="images/f.png">
+                                
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="col-md-12 col-sm-12 col-12">
+                    <div class="rightre">
+                        
+                        All Rights Reserved &reg;2019
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>	
+
+     <!--FOOTER END-->
+</body>
+<script src="js/script.js"></script>
+</html>
