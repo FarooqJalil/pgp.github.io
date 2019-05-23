@@ -136,7 +136,7 @@
     height: 60px;
     top:50%;
     transform: translateY(-50%);
-    border-radius: 50px;
+    border-radius: 50%;
     
 }
 .slideshow-container .slide-container .rightarrow{
@@ -455,7 +455,7 @@ footer{
 
  /* MEDIA QUERIES START*/
   
- @media only screen and (min-width: 1280px) {
+ @media only screen and (max-width: 1280px) {
 
   /*NAVIGATION BAR START*/
 
@@ -468,11 +468,7 @@ footer{
    /*MAIN CONTAINER START*/
   /*MAIN CONTAINER END*/
     /*FOOTER START*/
-    footer a{
-      
-      color:inherit;
-      font-size: 18px;
-  }
+ 
   /*FOOTER END*/
 
 
@@ -538,13 +534,22 @@ footer{
  
   }
 
-  @media only screen and (min-width: 680px) {
+  @media only screen and (max-width: 720px) {
  /*NAVIGATION BAR START*/
   /*NAVIGATION BAR END*/
 
   
 
     /*SLIDESHOW START*/
+    .slideshow-container{
+      height: 300px;
+    }
+    .slideshow-container .slide-container .leftarrow,
+     .slideshow-container .slide-container .rightarrow{
+       width:50px;
+       height: 50px;
+
+     }
   /*SLIDESHOW END*/
 
      /*MAIN CONTAINER START*/
@@ -577,36 +582,7 @@ footer{
   
   }
 
-  @media only screen and (max-width: 580px) {
-     /*NAVIGATION BAR START*/
-  /*NAVIGATION BAR END*/
-
-    /*SLIDESHOW START*/
-  /*SLIDESHOW END*/
-
-     /*MAIN CONTAINER START*/
-  /*MAIN CONTAINER END*/
  
-    nav .top {
-      display: inline-block;
-    }
-  
-   
-    nav .top .search .searchbox{
-      width: 80%;
-
-    }
-
-    nav .top .search form{
-      box-sizing: content-box;
-      
-
-    }
-    nav .top .utilities {
-      float: right;
-    }
-   
-  }
 
   @media only screen and (max-width: 620px){
      /*NAVIGATION BAR START*/
@@ -628,6 +604,37 @@ footer{
 
   }
 
+
+  @media only screen and (max-width: 580px) {
+    /*NAVIGATION BAR START*/
+ /*NAVIGATION BAR END*/
+
+   /*SLIDESHOW START*/
+ /*SLIDESHOW END*/
+
+    /*MAIN CONTAINER START*/
+ /*MAIN CONTAINER END*/
+
+   nav .top {
+     display: inline-block;
+   }
+ 
+  
+   nav .top .search .searchbox{
+     width: 80%;
+
+   }
+
+   nav .top .search form{
+     box-sizing: content-box;
+     
+
+   }
+   nav .top .utilities {
+     float: right;
+   }
+  
+ }
   @media only screen and (max-width: 520px) {
      /*NAVIGATION BAR START*/
   /*NAVIGATION BAR END*/
@@ -636,6 +643,12 @@ footer{
     .slideshow-container{
       height: 250px;
     }
+    .slideshow-container .slide-container .leftarrow,
+     .slideshow-container .slide-container .rightarrow{
+       width:40px;
+       height: 40px;
+
+     }
   /*SLIDESHOW END*/
 
      /*MAIN CONTAINER START*/
@@ -667,6 +680,11 @@ nav.top ul li{
      .slideshow-container{
        height: 200px;
      }
+     .slideshow-container  #dotscontainer .dots{
+       width: 12px;
+       height: 12px;
+     }
+     
 
   /*SLIDESHOW END*/
 
