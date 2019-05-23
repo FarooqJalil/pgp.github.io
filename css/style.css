@@ -87,114 +87,7 @@
   }
   /*ENDShadow*/
   
-  /* MEDIA QUERIES START*/
-  
-  @media only screen and (min-width: 1280px) {
-  
-    
-    }
-  
-    @media only screen and (min-width: 1180px) {
-  
-    
-    }
-  
-    @media only screen and (min-width: 1080px) {
-    
-    }
-  
-    @media only screen and (min-width: 980px) {
-  
-    
-    }
-  
-    @media only screen and (min-width: 880px) {
-  
-    
-    }
-  
-    @media only screen and (min-width: 780px) {
-  
-   
-    }
-  
-    @media only screen and (min-width: 680px) {
-  
-    
-    }
-    @media only screen and (max-width: 680px) {
-      nav .top ul li:nth-last-child(1){
-        display: inline-block;
-      }
-      nav .lower ul{
-        display:grid;
-        
-      }
-  
-      nav .lower{
-        height:1px;
-        transition: height .6s;
-      }
-    
-    }
-  
-    @media only screen and (max-width: 580px) {
-   
-      nav .top {
-        display: inline-block;
-      }
-    
-     
-      nav .top .search .searchbox{
-        width: 80%;
-  
-      }
-  
-      nav .top .search form{
-        box-sizing: content-box;
-        
-  
-      }
-      nav .top .utilities {
-        float: right;
-      }
-     
-    }
-  
-    @media only screen and (max-width: 525px){
-  
-  
-      nav .top .utilities span{
-        display: none;
-      }
-  
-    }
-  
-    @media only screen and (max-width: 422px) {
-      nav .top .utilities span{
-        display: inline;
-      }
-  
-     
-      nav.top ul li{
-    
-        display:inline-block;
-        margin-left: 40px;
-        padding-top: 5px;
-  
-         
-      }
-      
-    
-    }
-  
-    @media only screen and (max-width: 380px) {
-  
-     
-    
-    }
-   
-   /* MEDIA QUERIES START*/ 
+ 
   
 
            /*NAVIGATION BAR CSS END*/
@@ -204,6 +97,7 @@
 .slideshow-container{
     padding: 0;
     margin: 0 auto;
+    margin-bottom: 20px;
     width: 100%;
     height: 350px;
     
@@ -279,16 +173,16 @@
 }
 .slideshow-container .slide-container .caption-holder{
     position: absolute;
-    bottom: 0;
+    bottom: 15px;
     z-index: 1;
     color: white;
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     width: 100%;
     background: #00000047;
-    height: 50px;
-    line-height: 50px;
+    height: 30px;
+    line-height: 30px;
     overflow: hidden;
 }
 
@@ -298,10 +192,13 @@
 
 
 .slideshow-container  #dotscontainer{
+  position: absolute;
+  bottom: 8px;
     width: 100%;
-    height: 10%;
+    height: 10px;
+    z-index: 1;
     text-align: center;
-    padding-top: 20px;
+    line-height: 10px;
      box-sizing: border-box;
 }
 .slideshow-container  #dotscontainer .dots{
@@ -310,13 +207,15 @@ width:15px ;
 height:15px;
 border-radius: 50%;
 margin-left: 10px;
-background-color: yellow;
+background-color: #007DB8;
 cursor: pointer;
 transition: background-color 0.5s;
      
 }
 .slideshow-container #dotscontainer .dots:hover , .slideshow-container #dotscontainer .dots.active{
-    background-color: blue;
+    background-color:whitesmoke ;
+    width:17px ;
+    height:17px;
 }
 .slideshow-container  #dotscontainer .dots :first-child{
     margin-left: 0;
@@ -439,9 +338,7 @@ h3.h3{text-align:center;margin:1em;text-transform:capitalize;font-size:1.7em;}
 
 
   @media only screen and (min-width: 1280px) {
-    .contain {
-      width: 1240px;
-    }
+    
   
   }
   @media only screen and (min-width: 577px){
@@ -555,3 +452,229 @@ footer{
 
 
 /*FOOTER CSS END*/
+
+ /* MEDIA QUERIES START*/
+  
+ @media only screen and (min-width: 1280px) {
+
+  /*NAVIGATION BAR START*/
+
+  /*NAVIGATION BAR END*/
+
+    /*SLIDESHOW START*/
+  /*SLIDESHOW END*/
+
+
+   /*MAIN CONTAINER START*/
+  /*MAIN CONTAINER END*/
+    /*FOOTER START*/
+    footer a{
+      
+      color:inherit;
+      font-size: 18px;
+  }
+  /*FOOTER END*/
+
+
+  
+  }
+
+  @media only screen and (min-width: 1180px) {
+ /*NAVIGATION BAR START*/
+  /*NAVIGATION BAR END*/
+
+    /*SLIDESHOW START*/
+  /*SLIDESHOW END*/
+
+     /*MAIN CONTAINER START*/
+  /*MAIN CONTAINER END*/
+  
+  }
+
+  @media only screen and (min-width: 1080px) {
+   /*NAVIGATION BAR START*/
+  /*NAVIGATION BAR END*/
+
+    /*SLIDESHOW START*/
+  /*SLIDESHOW END*/
+
+     /*MAIN CONTAINER START*/
+  /*MAIN CONTAINER END*/
+  }
+
+  @media only screen and (min-width: 980px) {
+ /*NAVIGATION BAR START*/
+ 
+
+   /*SLIDESHOW START*/
+  /*SLIDESHOW END*/
+
+    /*MAIN CONTAINER START*/
+  /*MAIN CONTAINER END*/
+  
+  }
+
+  @media only screen and (min-width: 880px) {
+ /*NAVIGATION BAR START*/
+  /*NAVIGATION BAR END*/
+
+    /*SLIDESHOW START*/
+  /*SLIDESHOW END*/
+
+     /*MAIN CONTAINER START*/
+  /*MAIN CONTAINER END*/
+  
+  }
+
+  @media only screen and (min-width: 780px) {
+ /*NAVIGATION BAR START*/
+  /*NAVIGATION BAR END*/
+
+    /*SLIDESHOW START*/
+  /*SLIDESHOW END*/
+
+     /*MAIN CONTAINER START*/
+  /*MAIN CONTAINER END*/
+ 
+  }
+
+  @media only screen and (min-width: 680px) {
+ /*NAVIGATION BAR START*/
+  /*NAVIGATION BAR END*/
+
+  
+
+    /*SLIDESHOW START*/
+  /*SLIDESHOW END*/
+
+     /*MAIN CONTAINER START*/
+  /*MAIN CONTAINER END*/
+  
+  }
+  @media only screen and (max-width: 680px) {
+
+
+     /*NAVIGATION BAR START*/
+  /*NAVIGATION BAR END*/
+
+    /*SLIDESHOW START*/
+  /*SLIDESHOW END*/
+
+     /*MAIN CONTAINER START*/
+  /*MAIN CONTAINER END*/
+    nav .top ul li:nth-last-child(1){
+      display: inline-block;
+    }
+    nav .lower ul{
+      display:grid;
+      
+    }
+
+    nav .lower{
+      height:1px;
+      transition: height .6s;
+    }
+  
+  }
+
+  @media only screen and (max-width: 580px) {
+     /*NAVIGATION BAR START*/
+  /*NAVIGATION BAR END*/
+
+    /*SLIDESHOW START*/
+  /*SLIDESHOW END*/
+
+     /*MAIN CONTAINER START*/
+  /*MAIN CONTAINER END*/
+ 
+    nav .top {
+      display: inline-block;
+    }
+  
+   
+    nav .top .search .searchbox{
+      width: 80%;
+
+    }
+
+    nav .top .search form{
+      box-sizing: content-box;
+      
+
+    }
+    nav .top .utilities {
+      float: right;
+    }
+   
+  }
+
+  @media only screen and (max-width: 620px){
+     /*NAVIGATION BAR START*/
+  /*NAVIGATION BAR END*/
+
+    /*SLIDESHOW START*/
+    .slideshow-container{
+      height: 300px;
+    }
+  /*SLIDESHOW END*/
+
+     /*MAIN CONTAINER START*/
+  /*MAIN CONTAINER END*/
+
+
+    nav .top .utilities span{
+      display: none;
+    }
+
+  }
+
+  @media only screen and (max-width: 520px) {
+     /*NAVIGATION BAR START*/
+  /*NAVIGATION BAR END*/
+
+    /*SLIDESHOW START*/
+    .slideshow-container{
+      height: 250px;
+    }
+  /*SLIDESHOW END*/
+
+     /*MAIN CONTAINER START*/
+  /*MAIN CONTAINER END*/
+  
+    
+  
+  }
+
+  @media only screen and (max-width: 420px) {
+ /*NAVIGATION BAR START*/
+ nav .top .utilities span{
+  display: inline;
+}
+
+
+nav.top ul li{
+
+  display:inline-block;
+  margin-left: 40px;
+  padding-top: 5px;
+
+   
+}
+  /*NAVIGATION BAR END*/
+
+     /*SLIDESHOW START*/
+
+     .slideshow-container{
+       height: 200px;
+     }
+
+  /*SLIDESHOW END*/
+
+     /*MAIN CONTAINER START*/
+  /*MAIN CONTAINER END*/
+
+   
+  
+  }
+ 
+ /* MEDIA QUERIES END*/ 
